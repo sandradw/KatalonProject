@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tambah Cart,Chrome 140.0.7339.128,,,13-09-2025 19:33:42,13-09-2025 19:34:09,27.175s,PASSED
+,,,,,,,
+Test Cases/Cart,Chrome 140.0.7339.128,,,13-09-2025 19:33:43,13-09-2025 19:34:07,24.643s,PASSED
+openBrowser(URLDev),Chrome 140.0.7339.128,,,13-09-2025 19:33:43,13-09-2025 19:33:53,9.671s,PASSED
+"click(findTestObject(""Object Repository/Cart/Catalog""))",Chrome 140.0.7339.128,,,13-09-2025 19:33:53,13-09-2025 19:33:57,4.166s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 19:33:57,13-09-2025 19:33:59,2.093s,PASSED
+"click(findTestObject(""Object Repository/Cart/jacket""))",Chrome 140.0.7339.128,,,13-09-2025 19:33:59,13-09-2025 19:34:01,1.869s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 19:34:01,13-09-2025 19:34:02,0.978s,PASSED
+"click(findTestObject(""Object Repository/Cart/addtochart""))",Chrome 140.0.7339.128,,,13-09-2025 19:34:02,13-09-2025 19:34:03,0.477s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 19:34:03,13-09-2025 19:34:04,0.852s,PASSED
+"click(findTestObject(""Object Repository/Cart/mycart""))",Chrome 140.0.7339.128,,,13-09-2025 19:34:04,13-09-2025 19:34:04,0.485s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 19:34:04,13-09-2025 19:34:05,0.816s,PASSED
+"click(findTestObject(""Object Repository/Cart/checkout""))",Chrome 140.0.7339.128,,,13-09-2025 19:34:05,13-09-2025 19:34:07,1.751s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 19:34:07,13-09-2025 19:34:07,0.850s,PASSED

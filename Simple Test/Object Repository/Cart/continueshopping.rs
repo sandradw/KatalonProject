@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>continueshopping</name>
+   <tag></tag>
+   <elementGuidId>176fa4d7-e83a-4d05-b560-130e288db2ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.six.columns.alpha.continue-shopping > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='cart']/form/div[2]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3aa37eed-4130-4117-9b95-8d19a9a82112</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/collections/all</value>
+      <webElementGuid>61ca4cfa-d850-4de0-a320-02e0b5880fad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>« Continue Shopping</value>
+      <webElementGuid>fc2910cb-c5ca-40db-8998-5b5d507e8738</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cart&quot;)/form[1]/div[@class=&quot;twelve columns alpha omega row&quot;]/div[@class=&quot;six columns alpha continue-shopping&quot;]/a[1]</value>
+      <webElementGuid>aa3bddf9-325d-4511-ad47-1cf296fb11c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='cart']/form/div[2]/div/a</value>
+      <webElementGuid>2b52a094-fa41-413a-a6f0-4993435121ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'« Continue Shopping')]</value>
+      <webElementGuid>02816856-ca7f-41b3-8954-0c8c1e057465</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='x'])[1]/following::a[1]</value>
+      <webElementGuid>e6b84fee-80e0-4645-aed1-7a2bfb896d9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£55.00'])[4]/following::a[2]</value>
+      <webElementGuid>7b3baf0d-b845-4a86-8b46-802a52e605da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total £55.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>2d436406-0450-4c98-a431-e4369ab3e784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Footer'])[1]/preceding::a[1]</value>
+      <webElementGuid>4fac17fe-1b6e-40b5-b4e3-d049ffafc9d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='« Continue Shopping']/parent::*</value>
+      <webElementGuid>18294fa9-8ef1-4d87-846f-5deddb2f4267</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/collections/all')])[4]</value>
+      <webElementGuid>6ba183e2-d826-4740-90d5-0f5ce1621dfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>d2aa52fd-776a-4af4-b860-7861534e778e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/collections/all' and (text() = '« Continue Shopping' or . = '« Continue Shopping')]</value>
+      <webElementGuid>630d3591-fe53-42ef-a14a-6aa5ca59ed68</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

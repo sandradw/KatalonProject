@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cart Update Qty - Variation,Chrome 140.0.7339.128,,,13-09-2025 22:57:14,13-09-2025 22:58:19,1m - 5.486s,PASSED
+,,,,,,,
+Test Cases/Cart - Update Qty - Variation,Chrome 140.0.7339.128,,,13-09-2025 22:57:15,13-09-2025 22:58:17,1m - 2.877s,PASSED
+openBrowser(URLDev),Chrome 140.0.7339.128,,,13-09-2025 22:57:16,13-09-2025 22:57:26,10.462s,PASSED
+"click(findTestObject(""Object Repository/Cart/Catalog""))",Chrome 140.0.7339.128,,,13-09-2025 22:57:26,13-09-2025 22:57:30,4.085s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 22:57:30,13-09-2025 22:57:33,3.364s,PASSED
+"click(findTestObject(""Object Repository/Cart/jacket""))",Chrome 140.0.7339.128,,,13-09-2025 22:57:33,13-09-2025 22:57:36,2.204s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 22:57:36,13-09-2025 22:57:36,0.693s,PASSED
+"click(findTestObject(""Object Repository/Cart/addtochart""))",Chrome 140.0.7339.128,,,13-09-2025 22:57:36,13-09-2025 22:57:37,0.470s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 22:57:37,13-09-2025 22:57:38,0.695s,PASSED
+delay(5),Chrome 140.0.7339.128,,,13-09-2025 22:57:38,13-09-2025 22:57:43,5.074s,PASSED
+"click(findTestObject(""Object Repository/Cart/checkout""))",Chrome 140.0.7339.128,,,13-09-2025 22:57:43,13-09-2025 22:57:44,1.206s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 22:57:44,13-09-2025 22:57:44,0.511s,PASSED
+"click(findTestObject(""Object Repository/Cart/continueshopping""))",Chrome 140.0.7339.128,,,13-09-2025 22:57:44,13-09-2025 22:57:46,1.628s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 22:57:46,13-09-2025 22:57:47,1.245s,PASSED
+"click(findTestObject(""Object Repository/Cart/sandals""))",Chrome 140.0.7339.128,,,13-09-2025 22:57:47,13-09-2025 22:57:49,2.126s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 22:57:49,13-09-2025 22:57:50,0.858s,PASSED
+"click(findTestObject(""Object Repository/Cart/addtochart""))",Chrome 140.0.7339.128,,,13-09-2025 22:57:50,13-09-2025 22:57:51,0.460s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 22:57:51,13-09-2025 22:57:51,0.524s,PASSED
+delay(5),Chrome 140.0.7339.128,,,13-09-2025 22:57:51,13-09-2025 22:57:56,5.019s,PASSED
+"click(findTestObject(""Object Repository/Cart/checkout""))",Chrome 140.0.7339.128,,,13-09-2025 22:57:56,13-09-2025 22:57:58,1.763s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 22:57:58,13-09-2025 22:57:58,0.514s,PASSED
+"testQuantities = [""2.5"", ""99999"", ""0""]",Chrome 140.0.7339.128,,,13-09-2025 22:57:58,13-09-2025 22:57:58,0.002s,PASSED
+for (def qty : testQuantities),Chrome 140.0.7339.128,,,13-09-2025 22:57:58,13-09-2025 22:58:17,18.995s,PASSED

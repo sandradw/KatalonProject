@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tambah Cart" time="25.489" tests="1" failures="0" errors="0">
+   <testsuite name="Tambah Cart" tests="1" failures="0" errors="0" time="25.489" skipped="0" timestamp="2025-09-13T12:33:42.459Z" hostname="BRI - DESKTOP-DJRE031" id="Test Suites/Tambah Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336"/>
+         <property name="logFiles" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\console0.log, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\1757766837871.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\1757766841740.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\1757766843189.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\1757766844530.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\1757766847104.png"/>
+         <property name="hostName" value="BRI - DESKTOP-DJRE031"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 140.0.7339.128"/>
+         <property name="userFullName" value="Sandra Dwi Widiyaningsih"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="f7285f614484132ec9026387ab566d09"/>
+         <property name="projectName" value="Simple Test"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Cart" time="24.643" classname="Test Cases/Cart" status="PASSED">
+         <system-out><![CDATA[13-09-2025T19:33:43 - [TEST_CASE][PASSED] - Test Cases/Cart: Test Cases/Cart
+
+13-09-2025T19:33:43 - [TEST_STEP][PASSED] - openBrowser(URLDev): Browser is opened with url: 'https://sauce-demo.myshopify.com/'
+
+13-09-2025T19:33:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2025T19:33:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2025T19:33:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sauce-demo.myshopify.com/'
+
+13-09-2025T19:33:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/Catalog")): Object: 'Object Repository/Cart/Catalog' is clicked on
+
+13-09-2025T19:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/Catalog' is clicked on
+
+13-09-2025T19:33:57 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:33:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:33:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\1757766837871.png]]
+
+13-09-2025T19:33:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/jacket")): Object: 'Object Repository/Cart/jacket' is clicked on
+
+13-09-2025T19:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/jacket' is clicked on
+
+13-09-2025T19:34:01 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:34:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:34:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\1757766841740.png]]
+
+13-09-2025T19:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/addtochart")): Object: 'Object Repository/Cart/addtochart' is clicked on
+
+13-09-2025T19:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/addtochart' is clicked on
+
+13-09-2025T19:34:03 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:34:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:34:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\1757766843189.png]]
+
+13-09-2025T19:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/mycart")): Object: 'Object Repository/Cart/mycart' is clicked on
+
+13-09-2025T19:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/mycart' is clicked on
+
+13-09-2025T19:34:04 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:34:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:34:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\1757766844530.png]]
+
+13-09-2025T19:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/checkout")): Object: 'Object Repository/Cart/checkout' is clicked on
+
+13-09-2025T19:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/checkout' is clicked on
+
+13-09-2025T19:34:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:34:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:34:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_193336\\Tambah Cart\\20250913_193336\\1757766847104.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-09-2025T19:33:42 - [TEST_SUITE][PASSED] - Tambah Cart: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

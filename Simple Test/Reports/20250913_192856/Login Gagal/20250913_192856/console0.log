@@ -1,0 +1,58 @@
+2025-09-13 19:29:02.808 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login Gagal
+2025-09-13 19:29:02.951 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Sandra Dwi Widiyaningsih
+2025-09-13 19:29:02.954 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Simple Test
+2025-09-13 19:29:02.956 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = BRI - DESKTOP-DJRE031
+2025-09-13 19:29:02.958 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-13 19:29:02.960 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.3
+2025-09-13 19:29:02.963 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-13 19:29:03.728 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-13 19:29:03.728 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login_Gagal
+2025-09-13 19:29:03.887 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) email = 
+2025-09-13 19:29:03.889 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = 
+2025-09-13 19:29:04.733 DEBUG testcase.Login_Gagal                     - 1: openBrowser(URLDev)
+2025-09-13 19:29:05.453 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-09-13 19:29:05.586 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 13, 2025 7:29:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-09-13 19:29:11.378 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6f68974b3037f795559d784cf379e5ca
+2025-09-13 19:29:11.380 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.128
+2025-09-13 19:29:11.381 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-09-13 19:29:11.382 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-13 19:29:11.396 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-13 19:29:15.038 DEBUG testcase.Login_Gagal                     - 2: click(findTestObject("Object Repository/Page_Login Sauce Demo/Login"))
+2025-09-13 19:29:19.516 DEBUG testcase.Login_Gagal                     - 3: takeFullPageScreenshot()
+2025-09-13 19:29:20.476 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:29:20.858 DEBUG testcase.Login_Gagal                     - 4: sheetLoginGagal = getExcelDataWithDefaultSheet(FileProjectSimple + "\ProjectSimple.xlsx", "LoginGagal", true)
+2025-09-13 19:29:22.124 DEBUG testcase.Login_Gagal                     - 5: for ([row = 1, row <= sheetLoginGagal.getRowNumbers(), (row++)])
+2025-09-13 19:29:22.166 DEBUG testcase.Login_Gagal                     - 1: email = sheetLoginGagal.getValue(1, row)
+2025-09-13 19:29:22.196 DEBUG testcase.Login_Gagal                     - 2: password = sheetLoginGagal.getValue(2, row)
+2025-09-13 19:29:22.258 DEBUG testcase.Login_Gagal                     - 3: comment($email | $password)
+2025-09-13 19:29:22.351 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - sandradwi@gmail.com | 123
+2025-09-13 19:29:22.355 DEBUG testcase.Login_Gagal                     - 4: setText(findTestObject("Object Repository/Page_Login Sauce Demo/input_Email Address"), email)
+2025-09-13 19:29:23.229 DEBUG testcase.Login_Gagal                     - 5: takeFullPageScreenshot()
+2025-09-13 19:29:23.501 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:29:23.746 DEBUG testcase.Login_Gagal                     - 6: setText(findTestObject("Object Repository/Page_Login Sauce Demo/input_Password"), password)
+2025-09-13 19:29:25.966 DEBUG testcase.Login_Gagal                     - 7: takeFullPageScreenshot()
+2025-09-13 19:29:26.258 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:29:26.379 DEBUG testcase.Login_Gagal                     - 8: click(findTestObject("Object Repository/Page_Login Sauce Demo/signin_button"))
+2025-09-13 19:29:26.880 DEBUG testcase.Login_Gagal                     - 9: takeFullPageScreenshot()
+2025-09-13 19:29:27.273 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:29:27.453 DEBUG testcase.Login_Gagal                     - 10: delay(10)
+2025-09-13 19:29:37.518 DEBUG testcase.Login_Gagal                     - 1: email = sheetLoginGagal.getValue(1, row)
+2025-09-13 19:29:37.521 DEBUG testcase.Login_Gagal                     - 2: password = sheetLoginGagal.getValue(2, row)
+2025-09-13 19:29:37.524 DEBUG testcase.Login_Gagal                     - 3: comment($email | $password)
+2025-09-13 19:29:37.528 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - sandradwi@gmail.com | 
+2025-09-13 19:29:37.529 DEBUG testcase.Login_Gagal                     - 4: setText(findTestObject("Object Repository/Page_Login Sauce Demo/input_Email Address"), email)
+2025-09-13 19:29:40.069 DEBUG testcase.Login_Gagal                     - 5: takeFullPageScreenshot()
+2025-09-13 19:29:40.303 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:29:40.411 DEBUG testcase.Login_Gagal                     - 6: setText(findTestObject("Object Repository/Page_Login Sauce Demo/input_Password"), password)
+2025-09-13 19:29:41.107 DEBUG testcase.Login_Gagal                     - 7: takeFullPageScreenshot()
+2025-09-13 19:29:41.354 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:29:41.461 DEBUG testcase.Login_Gagal                     - 8: click(findTestObject("Object Repository/Page_Login Sauce Demo/signin_button"))
+2025-09-13 19:29:41.874 DEBUG testcase.Login_Gagal                     - 9: takeFullPageScreenshot()
+2025-09-13 19:29:42.136 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:29:42.236 DEBUG testcase.Login_Gagal                     - 10: delay(10)
+2025-09-13 19:29:52.254 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login_Gagal
+2025-09-13 19:29:53.872 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-13 19:29:53.872 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Login Gagal
+2025-09-13 19:29:53.872 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

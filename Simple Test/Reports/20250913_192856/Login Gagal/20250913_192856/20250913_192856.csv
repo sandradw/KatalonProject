@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Gagal,Chrome 140.0.7339.128,,,13-09-2025 19:29:02,13-09-2025 19:29:53,50.948s,PASSED
+,,,,,,,
+Test Cases/Login_Gagal,Chrome 140.0.7339.128,,,13-09-2025 19:29:03,13-09-2025 19:29:52,48.527s,PASSED
+"DATA BINDING - {""(Default) passw..."":"""",""(Default) email"":""""}",,,,,,,
+openBrowser(URLDev),Chrome 140.0.7339.128,,,13-09-2025 19:29:04,13-09-2025 19:29:15,10.305s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Sauce Demo/Login""))",Chrome 140.0.7339.128,,,13-09-2025 19:29:15,13-09-2025 19:29:19,4.475s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 19:29:19,13-09-2025 19:29:20,1.340s,PASSED
+"sheetLoginGagal = getExcelDataWithDefaultSheet(FileProjectSimple + ""\ProjectSimple.xlsx"", ""LoginGagal"", true)",Chrome 140.0.7339.128,,,13-09-2025 19:29:20,13-09-2025 19:29:22,1.265s,PASSED
+"for ([row = 1, row <= sheetLoginGagal.getRowNumbers(), (row++)])",Chrome 140.0.7339.128,,,13-09-2025 19:29:22,13-09-2025 19:29:52,30.125s,PASSED

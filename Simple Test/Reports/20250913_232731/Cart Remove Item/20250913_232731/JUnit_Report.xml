@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cart Remove Item" time="54.748" tests="1" failures="0" errors="0">
+   <testsuite name="Cart Remove Item" tests="1" failures="0" errors="0" time="54.748" skipped="0" timestamp="2025-09-13T16:27:37.888Z" hostname="BRI - DESKTOP-DJRE031" id="Test Suites/Cart Remove Item">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731"/>
+         <property name="logFiles" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\console0.log, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780873694.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780877738.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780879114.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780891458.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780893440.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780896005.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780897148.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780909351.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780912190.png"/>
+         <property name="hostName" value="BRI - DESKTOP-DJRE031"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 140.0.7339.128"/>
+         <property name="userFullName" value="Sandra Dwi Widiyaningsih"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="42e18596cd95dadec966744769ce6644"/>
+         <property name="projectName" value="Simple Test"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Cart - Remove Item" time="53.612" classname="Test Cases/Cart - Remove Item" status="PASSED">
+         <system-out><![CDATA[13-09-2025T23:27:39 - [TEST_CASE][PASSED] - Test Cases/Cart - Remove Item: Test Cases/Cart - Remove Item
+
+13-09-2025T23:27:39 - [TEST_STEP][PASSED] - openBrowser(URLDev): Browser is opened with url: 'https://sauce-demo.myshopify.com/'
+
+13-09-2025T23:27:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2025T23:27:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2025T23:27:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sauce-demo.myshopify.com/'
+
+13-09-2025T23:27:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/Catalog")): Object: 'Object Repository/Cart/Catalog' is clicked on
+
+13-09-2025T23:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/Catalog' is clicked on
+
+13-09-2025T23:27:53 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T23:27:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T23:27:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780873694.png]]
+
+13-09-2025T23:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/jacket")): Object: 'Object Repository/Cart/jacket' is clicked on
+
+13-09-2025T23:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/jacket' is clicked on
+
+13-09-2025T23:27:57 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T23:27:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T23:27:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780877738.png]]
+
+13-09-2025T23:27:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/addtochart")): Object: 'Object Repository/Cart/addtochart' is clicked on
+
+13-09-2025T23:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/addtochart' is clicked on
+
+13-09-2025T23:27:59 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T23:27:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T23:27:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780879114.png]]
+
+13-09-2025T23:27:59 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+13-09-2025T23:28:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+13-09-2025T23:28:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/checkout")): Object: 'Object Repository/Cart/checkout' is clicked on
+
+13-09-2025T23:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/checkout' is clicked on
+
+13-09-2025T23:28:11 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T23:28:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T23:28:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780891458.png]]
+
+13-09-2025T23:28:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/continueshopping")): Object: 'Object Repository/Cart/continueshopping' is clicked on
+
+13-09-2025T23:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/continueshopping' is clicked on
+
+13-09-2025T23:28:13 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T23:28:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T23:28:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780893440.png]]
+
+13-09-2025T23:28:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/sandals")): Object: 'Object Repository/Cart/sandals' is clicked on
+
+13-09-2025T23:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/sandals' is clicked on
+
+13-09-2025T23:28:15 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T23:28:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T23:28:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780896005.png]]
+
+13-09-2025T23:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/addtochart")): Object: 'Object Repository/Cart/addtochart' is clicked on
+
+13-09-2025T23:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/addtochart' is clicked on
+
+13-09-2025T23:28:17 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T23:28:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T23:28:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780897148.png]]
+
+13-09-2025T23:28:17 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+13-09-2025T23:28:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+13-09-2025T23:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/checkout")): Object: 'Object Repository/Cart/checkout' is clicked on
+
+13-09-2025T23:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/checkout' is clicked on
+
+13-09-2025T23:28:29 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T23:28:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T23:28:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780909351.png]]
+
+13-09-2025T23:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/Remove")): Object: 'Object Repository/Cart/Remove' is clicked on
+
+13-09-2025T23:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/Remove' is clicked on
+
+13-09-2025T23:28:32 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T23:28:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T23:28:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_232731\\Cart Remove Item\\20250913_232731\\1757780912190.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-09-2025T23:27:37 - [TEST_SUITE][PASSED] - Cart Remove Item: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

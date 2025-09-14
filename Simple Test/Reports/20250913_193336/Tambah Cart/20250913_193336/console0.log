@@ -1,0 +1,38 @@
+2025-09-13 19:33:42.329 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Tambah Cart
+2025-09-13 19:33:42.488 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Sandra Dwi Widiyaningsih
+2025-09-13 19:33:42.491 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Simple Test
+2025-09-13 19:33:42.492 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = BRI - DESKTOP-DJRE031
+2025-09-13 19:33:42.494 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-13 19:33:42.497 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.3
+2025-09-13 19:33:42.499 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-13 19:33:43.304 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-13 19:33:43.305 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cart
+2025-09-13 19:33:43.923 DEBUG testcase.Cart                            - 1: openBrowser(URLDev)
+2025-09-13 19:33:44.442 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-09-13 19:33:44.519 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 13, 2025 7:33:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-09-13 19:33:49.762 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f7285f614484132ec9026387ab566d09
+2025-09-13 19:33:49.763 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.128
+2025-09-13 19:33:49.766 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-09-13 19:33:49.767 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-13 19:33:49.779 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-13 19:33:53.593 DEBUG testcase.Cart                            - 2: click(findTestObject("Object Repository/Cart/Catalog"))
+2025-09-13 19:33:57.759 DEBUG testcase.Cart                            - 3: takeFullPageScreenshot()
+2025-09-13 19:33:58.952 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:33:59.852 DEBUG testcase.Cart                            - 4: click(findTestObject("Object Repository/Cart/jacket"))
+2025-09-13 19:34:01.722 DEBUG testcase.Cart                            - 5: takeFullPageScreenshot()
+2025-09-13 19:34:02.359 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:34:02.702 DEBUG testcase.Cart                            - 6: click(findTestObject("Object Repository/Cart/addtochart"))
+2025-09-13 19:34:03.180 DEBUG testcase.Cart                            - 7: takeFullPageScreenshot()
+2025-09-13 19:34:03.725 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:34:04.034 DEBUG testcase.Cart                            - 8: click(findTestObject("Object Repository/Cart/mycart"))
+2025-09-13 19:34:04.519 DEBUG testcase.Cart                            - 9: takeFullPageScreenshot()
+2025-09-13 19:34:05.011 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:34:05.338 DEBUG testcase.Cart                            - 10: click(findTestObject("Object Repository/Cart/checkout"))
+2025-09-13 19:34:07.090 DEBUG testcase.Cart                            - 11: takeFullPageScreenshot()
+2025-09-13 19:34:07.732 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:34:07.948 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cart
+2025-09-13 19:34:09.633 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-13 19:34:09.633 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Tambah Cart
+2025-09-13 19:34:09.634 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

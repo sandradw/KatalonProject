@@ -1,0 +1,86 @@
+2025-09-14 15:33:00.107 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Cart Pembayaran
+2025-09-14 15:33:00.303 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Sandra Dwi Widiyaningsih
+2025-09-14 15:33:00.306 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Simple Test
+2025-09-14 15:33:00.309 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = BRI - DESKTOP-DJRE031
+2025-09-14 15:33:00.310 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-14 15:33:00.312 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.3
+2025-09-14 15:33:00.313 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-14 15:33:01.442 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-14 15:33:01.442 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cart - Pembayaran
+2025-09-14 15:33:01.801 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) label = IN
+2025-09-14 15:33:02.692 DEBUG testcase.Cart - Pembayaran               - 1: openBrowser(URLDev)
+2025-09-14 15:33:03.415 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-09-14 15:33:03.544 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 14, 2025 3:33:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-09-14 15:33:09.480 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1401e860e14b849cfb06570ba69cd44d
+2025-09-14 15:33:09.482 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.128
+2025-09-14 15:33:09.484 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-09-14 15:33:09.485 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-14 15:33:09.499 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-14 15:33:12.948 DEBUG testcase.Cart - Pembayaran               - 2: click(findTestObject("Object Repository/Cart/Catalog"))
+2025-09-14 15:33:16.924 DEBUG testcase.Cart - Pembayaran               - 3: takeFullPageScreenshot()
+2025-09-14 15:33:18.771 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-14 15:33:19.757 DEBUG testcase.Cart - Pembayaran               - 4: click(findTestObject("Object Repository/Cart/jacket"))
+2025-09-14 15:33:21.452 DEBUG testcase.Cart - Pembayaran               - 5: takeFullPageScreenshot()
+2025-09-14 15:33:22.151 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-14 15:33:22.603 DEBUG testcase.Cart - Pembayaran               - 6: click(findTestObject("Object Repository/Cart/addtochart"))
+2025-09-14 15:33:23.072 DEBUG testcase.Cart - Pembayaran               - 7: takeFullPageScreenshot()
+2025-09-14 15:33:23.608 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-14 15:33:23.989 DEBUG testcase.Cart - Pembayaran               - 8: delay(10)
+2025-09-14 15:33:34.053 DEBUG testcase.Cart - Pembayaran               - 9: click(findTestObject("Object Repository/Cart/checkout"))
+2025-09-14 15:33:35.695 DEBUG testcase.Cart - Pembayaran               - 10: takeFullPageScreenshot()
+2025-09-14 15:33:36.012 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-14 15:33:36.226 DEBUG testcase.Cart - Pembayaran               - 11: click(findTestObject("Object Repository/Page_Checkout - Sauce Demo/input_Total_checkout"))
+2025-09-14 15:33:39.475 DEBUG testcase.Cart - Pembayaran               - 12: takeFullPageScreenshot()
+2025-09-14 15:33:41.520 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-14 15:33:41.682 DEBUG testcase.Cart - Pembayaran               - 13: delay(5)
+2025-09-14 15:33:46.709 DEBUG testcase.Cart - Pembayaran               - 14: sheetcheckout = getExcelDataWithDefaultSheet(FileProjectSimple + "\ProjectSimple.xlsx", "checkout", true)
+2025-09-14 15:33:47.665 DEBUG testcase.Cart - Pembayaran               - 15: for ([row = 1, row <= sheetcheckout.getRowNumbers(), (row++)])
+2025-09-14 15:33:47.692 DEBUG testcase.Cart - Pembayaran               - 1: email = sheetcheckout.getValue(1, row)
+2025-09-14 15:33:47.713 DEBUG testcase.Cart - Pembayaran               - 2: country = sheetcheckout.getValue(2, row)
+2025-09-14 15:33:47.717 DEBUG testcase.Cart - Pembayaran               - 3: firstname = sheetcheckout.getValue(3, row)
+2025-09-14 15:33:47.721 DEBUG testcase.Cart - Pembayaran               - 4: lastname = sheetcheckout.getValue(4, row)
+2025-09-14 15:33:47.725 DEBUG testcase.Cart - Pembayaran               - 5: company = sheetcheckout.getValue(5, row)
+2025-09-14 15:33:47.732 DEBUG testcase.Cart - Pembayaran               - 6: address = sheetcheckout.getValue(6, row)
+2025-09-14 15:33:47.734 DEBUG testcase.Cart - Pembayaran               - 7: apartment = sheetcheckout.getValue(7, row)
+2025-09-14 15:33:47.738 DEBUG testcase.Cart - Pembayaran               - 8: city = sheetcheckout.getValue(8, row)
+2025-09-14 15:33:47.746 DEBUG testcase.Cart - Pembayaran               - 9: province = sheetcheckout.getValue(9, row)
+2025-09-14 15:33:47.750 DEBUG testcase.Cart - Pembayaran               - 10: postalcode = sheetcheckout.getValue(10, row)
+2025-09-14 15:33:47.804 DEBUG testcase.Cart - Pembayaran               - 11: phone = sheetcheckout.getValue(11, row)
+2025-09-14 15:33:47.807 DEBUG testcase.Cart - Pembayaran               - 12: cardnumber = sheetcheckout.getValue(12, row)
+2025-09-14 15:33:47.816 DEBUG testcase.Cart - Pembayaran               - 13: expiration = sheetcheckout.getValue(13, row)
+2025-09-14 15:33:47.823 DEBUG testcase.Cart - Pembayaran               - 14: securitycode = sheetcheckout.getValue(14, row)
+2025-09-14 15:33:47.831 DEBUG testcase.Cart - Pembayaran               - 15: comment($email | $country | $firstname | $lastname | $company | $address | $city | $province | $postalcode | $phone | $cardnumber | $expiration | $securitycode)
+2025-09-14 15:33:47.904 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - sandradwi@gmail.com | ID | sandra | dwi | - | jalan mampang parapatan v | Jakarta Selatan | JK | 12790 | 0856666666 | 1234567891234 | Dec-25 | 123
+2025-09-14 15:33:47.906 DEBUG testcase.Cart - Pembayaran               - 16: setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/input_Email"), email)
+2025-09-14 15:33:48.762 DEBUG testcase.Cart - Pembayaran               - 17: click(findTestObject("Object Repository/Page_Checkout - Sauce Demo/ceklis_Email_marketing"))
+2025-09-14 15:33:49.374 DEBUG testcase.Cart - Pembayaran               - 18: takeFullPageScreenshot()
+2025-09-14 15:33:49.823 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-14 15:33:49.963 DEBUG testcase.Cart - Pembayaran               - 19: waitForElementVisible(findTestObject("Object Repository/Page_Checkout - Sauce Demo/Country"), 10)
+2025-09-14 15:33:51.365 DEBUG testcase.Cart - Pembayaran               - 20: selectOptionByValue(findTestObject("Object Repository/Page_Checkout - Sauce Demo/Country"), country, false)
+2025-09-14 15:33:52.044 DEBUG testcase.Cart - Pembayaran               - 21: setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/Firstname"), firstname)
+2025-09-14 15:33:52.935 DEBUG testcase.Cart - Pembayaran               - 22: setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/Lastname"), lastname)
+2025-09-14 15:33:54.173 DEBUG testcase.Cart - Pembayaran               - 23: setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/company"), company)
+2025-09-14 15:33:55.442 DEBUG testcase.Cart - Pembayaran               - 24: setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/address1"), address)
+2025-09-14 15:33:57.192 DEBUG testcase.Cart - Pembayaran               - 25: setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/address2"), apartment)
+2025-09-14 15:33:58.315 DEBUG testcase.Cart - Pembayaran               - 26: setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/city"), city)
+2025-09-14 15:34:00.019 DEBUG testcase.Cart - Pembayaran               - 27: waitForElementVisible(findTestObject("Object Repository/Page_Checkout - Sauce Demo/province"), 10)
+2025-09-14 15:34:00.331 DEBUG testcase.Cart - Pembayaran               - 28: selectOptionByValue(findTestObject("Object Repository/Page_Checkout - Sauce Demo/province"), province, false)
+2025-09-14 15:34:01.211 DEBUG testcase.Cart - Pembayaran               - 29: setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/postalcode"), postalcode)
+2025-09-14 15:34:02.590 DEBUG testcase.Cart - Pembayaran               - 30: setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/phone"), phone)
+2025-09-14 15:34:03.842 DEBUG testcase.Cart - Pembayaran               - 31: takeFullPageScreenshot()
+2025-09-14 15:34:05.139 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-14 15:34:05.277 DEBUG testcase.Cart - Pembayaran               - 32: click(findTestObject("Object Repository/Page_Checkout - Sauce Demo/ceklis_Phone (optional)_save_shipping_information"))
+2025-09-14 15:34:06.317 DEBUG testcase.Cart - Pembayaran               - 33: takeFullPageScreenshot()
+2025-09-14 15:34:06.817 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-14 15:34:06.967 DEBUG testcase.Cart - Pembayaran               - 34: delay(20)
+2025-09-14 15:34:26.990 DEBUG testcase.Cart - Pembayaran               - 35: takeFullPageScreenshot()
+2025-09-14 15:34:27.413 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-14 15:34:27.583 DEBUG testcase.Cart - Pembayaran               - 36: click(findTestObject("Object Repository/Page_Checkout - Sauce Demo/button_paynow"))
+2025-09-14 15:34:28.059 DEBUG testcase.Cart - Pembayaran               - 37: takeFullPageScreenshot()
+2025-09-14 15:34:28.582 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-14 15:34:28.756 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cart - Pembayaran
+2025-09-14 15:34:30.693 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-14 15:34:30.693 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Cart Pembayaran
+2025-09-14 15:34:30.694 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

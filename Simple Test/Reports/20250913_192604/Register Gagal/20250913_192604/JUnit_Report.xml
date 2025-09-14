@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register Gagal" time="53.177" tests="1" failures="0" errors="0">
+   <testsuite name="Register Gagal" tests="1" failures="0" errors="0" time="53.177" skipped="0" timestamp="2025-09-13T12:26:10.732Z" hostname="BRI - DESKTOP-DJRE031" id="Test Suites/Register Gagal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604"/>
+         <property name="logFiles" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\console0.log, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766387379.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766391433.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766393954.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766395481.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766396952.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766398014.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766409480.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766410594.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766411665.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766412760.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766413527.png"/>
+         <property name="hostName" value="BRI - DESKTOP-DJRE031"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 140.0.7339.128"/>
+         <property name="userFullName" value="Sandra Dwi Widiyaningsih"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="9d2bdcfc9df4d0570856bb4553feb677"/>
+         <property name="projectName" value="Simple Test"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Register_Gagal" time="52.151" classname="Test Cases/Register_Gagal" status="PASSED">
+         <system-out><![CDATA[13-09-2025T19:26:11 - [TEST_CASE][PASSED] - Test Cases/Register_Gagal: Test Cases/Register_Gagal
+
+13-09-2025T19:26:12 - [TEST_STEP][PASSED] - openBrowser(URLDev): Browser is opened with url: 'https://sauce-demo.myshopify.com/'
+
+13-09-2025T19:26:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2025T19:26:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2025T19:26:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sauce-demo.myshopify.com/'
+
+13-09-2025T19:26:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Account  Sauce Demo/Sign_Up")): Object: 'Object Repository/Page_Create Account  Sauce Demo/Sign_Up' is clicked on
+
+13-09-2025T19:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account  Sauce Demo/Sign_Up' is clicked on
+
+13-09-2025T19:26:27 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766387379.png]]
+
+13-09-2025T19:26:28 - [TEST_STEP][PASSED] - sheetRegisterGagal = getExcelDataWithDefaultSheet(FileProjectSimple + "\ProjectSimple.xlsx", "RegisterGagal", true): null
+
+13-09-2025T19:26:30 - [TEST_STEP][PASSED] - for ([row = 1, row <= sheetRegisterGagal.getRowNumbers(), (row++)]): Delayed 10 second(s)
+
+13-09-2025T19:26:30 - [TEST_STEP][PASSED] - firstname = sheetRegisterGagal.getValue(1, row): null
+
+13-09-2025T19:26:30 - [TEST_STEP][PASSED] - lastname = sheetRegisterGagal.getValue(2, row): null
+
+13-09-2025T19:26:30 - [TEST_STEP][PASSED] - email = sheetRegisterGagal.getValue(3, row): null
+
+13-09-2025T19:26:30 - [TEST_STEP][PASSED] - password = sheetRegisterGagal.getValue(4, row): null
+
+13-09-2025T19:26:30 - [TEST_STEP][PASSED] - comment($firstname | $lastname | $email | $password): sandra | dwi | sandradwi_test@gmail.com | 123
+
+13-09-2025T19:26:30 - [MESSAGE][INFO] - sandra | dwi | sandradwi_test@gmail.com | 123
+
+13-09-2025T19:26:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_First Name"), firstname): Text 'sandra' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_First Name'
+
+13-09-2025T19:26:31 - [MESSAGE][PASSED] - Text 'sandra' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_First Name'
+
+13-09-2025T19:26:31 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766391433.png]]
+
+13-09-2025T19:26:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_Last Name"), lastname): Text 'dwi' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Last Name'
+
+13-09-2025T19:26:33 - [MESSAGE][PASSED] - Text 'dwi' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Last Name'
+
+13-09-2025T19:26:33 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766393954.png]]
+
+13-09-2025T19:26:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_Email Address"), email): Text 'sandradwi_test@gmail.com' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Email Address'
+
+13-09-2025T19:26:35 - [MESSAGE][PASSED] - Text 'sandradwi_test@gmail.com' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Email Address'
+
+13-09-2025T19:26:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766395481.png]]
+
+13-09-2025T19:26:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_Password"), password): Text '123' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Password'
+
+13-09-2025T19:26:36 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Password'
+
+13-09-2025T19:26:36 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766396952.png]]
+
+13-09-2025T19:26:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_submit")): Object: 'Object Repository/Page_Create Account  Sauce Demo/input_submit' is clicked on
+
+13-09-2025T19:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account  Sauce Demo/input_submit' is clicked on
+
+13-09-2025T19:26:38 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766398014.png]]
+
+13-09-2025T19:26:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+13-09-2025T19:26:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+13-09-2025T19:26:48 - [TEST_STEP][PASSED] - firstname = sheetRegisterGagal.getValue(1, row): null
+
+13-09-2025T19:26:48 - [TEST_STEP][PASSED] - lastname = sheetRegisterGagal.getValue(2, row): null
+
+13-09-2025T19:26:48 - [TEST_STEP][PASSED] - email = sheetRegisterGagal.getValue(3, row): null
+
+13-09-2025T19:26:48 - [TEST_STEP][PASSED] - password = sheetRegisterGagal.getValue(4, row): null
+
+13-09-2025T19:26:48 - [TEST_STEP][PASSED] - comment($firstname | $lastname | $email | $password): sandra | dwi | sandradwi_test@gmail.com | sandradwi123
+
+13-09-2025T19:26:48 - [MESSAGE][INFO] - sandra | dwi | sandradwi_test@gmail.com | sandradwi123
+
+13-09-2025T19:26:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_First Name"), firstname): Text 'sandra' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_First Name'
+
+13-09-2025T19:26:49 - [MESSAGE][PASSED] - Text 'sandra' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_First Name'
+
+13-09-2025T19:26:49 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766409480.png]]
+
+13-09-2025T19:26:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_Last Name"), lastname): Text 'dwi' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Last Name'
+
+13-09-2025T19:26:50 - [MESSAGE][PASSED] - Text 'dwi' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Last Name'
+
+13-09-2025T19:26:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766410594.png]]
+
+13-09-2025T19:26:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_Email Address"), email): Text 'sandradwi_test@gmail.com' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Email Address'
+
+13-09-2025T19:26:51 - [MESSAGE][PASSED] - Text 'sandradwi_test@gmail.com' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Email Address'
+
+13-09-2025T19:26:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766411665.png]]
+
+13-09-2025T19:26:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_Password"), password): Text 'sandradwi123' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Password'
+
+13-09-2025T19:26:52 - [MESSAGE][PASSED] - Text 'sandradwi123' is set on object 'Object Repository/Page_Create Account  Sauce Demo/input_Password'
+
+13-09-2025T19:26:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766412760.png]]
+
+13-09-2025T19:26:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_submit")): Object: 'Object Repository/Page_Create Account  Sauce Demo/input_submit' is clicked on
+
+13-09-2025T19:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Account  Sauce Demo/input_submit' is clicked on
+
+13-09-2025T19:26:53 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-09-2025T19:26:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-09-2025T19:26:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250913_192604\\Register Gagal\\20250913_192604\\1757766413527.png]]
+
+13-09-2025T19:26:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+13-09-2025T19:27:03 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-09-2025T19:26:10 - [TEST_SUITE][PASSED] - Register Gagal: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,68 @@
+2025-09-13 19:21:24.475 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Register dan login berhasil
+2025-09-13 19:21:24.691 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Sandra Dwi Widiyaningsih
+2025-09-13 19:21:24.694 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Simple Test
+2025-09-13 19:21:24.696 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = BRI - DESKTOP-DJRE031
+2025-09-13 19:21:24.698 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-13 19:21:24.700 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.3
+2025-09-13 19:21:24.701 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-13 19:21:25.872 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-13 19:21:25.872 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register dan login Berhasil
+2025-09-13 19:21:27.038 DEBUG testcase.Register dan login Berhasil     - 1: openBrowser(URLDev)
+2025-09-13 19:21:27.802 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-09-13 19:21:27.942 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 13, 2025 7:21:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-09-13 19:21:34.069 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e1d053e7860e34450341e993ce31655b
+2025-09-13 19:21:34.072 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.128
+2025-09-13 19:21:34.074 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-09-13 19:21:34.076 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-13 19:21:34.088 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-13 19:21:38.418 DEBUG testcase.Register dan login Berhasil     - 2: click(findTestObject("Object Repository/Page_Create Account  Sauce Demo/Sign_Up"))
+2025-09-13 19:21:42.648 DEBUG testcase.Register dan login Berhasil     - 3: takeFullPageScreenshot()
+2025-09-13 19:21:43.280 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:21:43.527 DEBUG testcase.Register dan login Berhasil     - 4: sheetRegister = getExcelDataWithDefaultSheet(FileProjectSimple + "\ProjectSimple.xlsx", "Register", true)
+2025-09-13 19:21:44.963 DEBUG testcase.Register dan login Berhasil     - 5: for ([row = 1, row <= sheetRegister.getRowNumbers(), (row++)])
+2025-09-13 19:21:45.009 DEBUG testcase.Register dan login Berhasil     - 1: firstname = sheetRegister.getValue(1, row)
+2025-09-13 19:21:45.032 DEBUG testcase.Register dan login Berhasil     - 2: lastname = sheetRegister.getValue(2, row)
+2025-09-13 19:21:45.040 DEBUG testcase.Register dan login Berhasil     - 3: email = sheetRegister.getValue(3, row)
+2025-09-13 19:21:45.046 DEBUG testcase.Register dan login Berhasil     - 4: password = sheetRegister.getValue(4, row)
+2025-09-13 19:21:45.052 DEBUG testcase.Register dan login Berhasil     - 5: comment($firstname | $lastname | $email | $password)
+2025-09-13 19:21:45.154 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - sandra | dwi | sandradwi_test@gmail.com | sandradwi
+2025-09-13 19:21:45.158 DEBUG testcase.Register dan login Berhasil     - 6: setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_First Name"), firstname)
+2025-09-13 19:21:46.106 DEBUG testcase.Register dan login Berhasil     - 7: takeFullPageScreenshot()
+2025-09-13 19:21:46.408 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:21:46.608 DEBUG testcase.Register dan login Berhasil     - 8: setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_Last Name"), lastname)
+2025-09-13 19:21:48.519 DEBUG testcase.Register dan login Berhasil     - 9: takeFullPageScreenshot()
+2025-09-13 19:21:48.838 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:21:48.998 DEBUG testcase.Register dan login Berhasil     - 10: setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_Email Address"), email)
+2025-09-13 19:21:49.899 DEBUG testcase.Register dan login Berhasil     - 11: takeFullPageScreenshot()
+2025-09-13 19:21:50.266 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:21:50.477 DEBUG testcase.Register dan login Berhasil     - 12: setText(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_Password"), password)
+2025-09-13 19:21:51.388 DEBUG testcase.Register dan login Berhasil     - 13: takeFullPageScreenshot()
+2025-09-13 19:21:51.848 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:21:52.146 DEBUG testcase.Register dan login Berhasil     - 14: click(findTestObject("Object Repository/Page_Create Account  Sauce Demo/input_submit"))
+2025-09-13 19:21:52.769 DEBUG testcase.Register dan login Berhasil     - 15: takeFullPageScreenshot()
+2025-09-13 19:21:53.177 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:21:53.364 DEBUG testcase.Register dan login Berhasil     - 6: delay(10)
+2025-09-13 19:22:03.418 DEBUG testcase.Register dan login Berhasil     - 7: click(findTestObject("Object Repository/Page_Login Sauce Demo/Login"))
+2025-09-13 19:22:05.698 DEBUG testcase.Register dan login Berhasil     - 8: takeFullPageScreenshot()
+2025-09-13 19:22:05.992 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:22:06.096 DEBUG testcase.Register dan login Berhasil     - 9: sheetLogin = getExcelDataWithDefaultSheet(FileProjectSimple + "\ProjectSimple.xlsx", "Login", true)
+2025-09-13 19:22:06.159 DEBUG testcase.Register dan login Berhasil     - 10: for ([row = 1, row <= sheetLogin.getRowNumbers(), (row++)])
+2025-09-13 19:22:06.162 DEBUG testcase.Register dan login Berhasil     - 1: email = sheetLogin.getValue(1, row)
+2025-09-13 19:22:06.169 DEBUG testcase.Register dan login Berhasil     - 2: password = sheetLogin.getValue(2, row)
+2025-09-13 19:22:06.172 DEBUG testcase.Register dan login Berhasil     - 3: comment($email | $password)
+2025-09-13 19:22:06.176 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - sandradwi@gmail.com | sandradwi
+2025-09-13 19:22:06.179 DEBUG testcase.Register dan login Berhasil     - 4: setText(findTestObject("Object Repository/Page_Login Sauce Demo/input_Email Address"), email)
+2025-09-13 19:22:07.175 DEBUG testcase.Register dan login Berhasil     - 5: takeFullPageScreenshot()
+2025-09-13 19:22:08.693 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:22:08.808 DEBUG testcase.Register dan login Berhasil     - 6: setText(findTestObject("Object Repository/Page_Login Sauce Demo/input_Password"), password)
+2025-09-13 19:22:09.576 DEBUG testcase.Register dan login Berhasil     - 7: takeFullPageScreenshot()
+2025-09-13 19:22:09.859 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:22:09.970 DEBUG testcase.Register dan login Berhasil     - 8: click(findTestObject("Object Repository/Page_Login Sauce Demo/signin_button"))
+2025-09-13 19:22:10.444 DEBUG testcase.Register dan login Berhasil     - 9: takeFullPageScreenshot()
+2025-09-13 19:22:10.722 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 19:22:10.834 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Register dan login Berhasil
+2025-09-13 19:22:12.250 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-13 19:22:12.250 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Register dan login berhasil
+2025-09-13 19:22:12.250 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

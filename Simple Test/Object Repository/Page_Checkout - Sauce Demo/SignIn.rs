@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SignIn</name>
+   <tag></tag>
+   <elementGuidId>d64aae8d-f075-41ad-a06b-7c1f667da0a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.s2kwpi1.s2kwpi0._1fragemn2._1fragemu9._1fragemuf._1fragemu3.s2kwpi2.s2kwpi5.s2kwpi4._1fragemu0.s2kwpi8</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='Form477']/div/div/section/div/div/div/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>117a157c-f73f-4058-82e4-e3ca19616804</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://sauce-demo.myshopify.com/account/login?checkout_url=%2Fcheckouts%2Fcn%2FhWN2w2nehCBxVPOebXykzojU%2Fen-id%3Flocale%3Den-ID</value>
+      <webElementGuid>13131d55-0f38-4236-ae49-7e51c2ce9aa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>s2kwpi1 s2kwpi0 _1fragemn2 _1fragemu9 _1fragemuf _1fragemu3 s2kwpi2 s2kwpi5 s2kwpi4 _1fragemu0 s2kwpi8</value>
+      <webElementGuid>5eb7f096-9e63-4eb5-9c67-c708249e9223</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign in</value>
+      <webElementGuid>c82044d0-ada1-4aed-912a-d3676de29460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Form477&quot;)/div[@class=&quot;km09ry1 _1fragemn2&quot;]/div[1]/section[@class=&quot;_17kya4ui _17kya4ug _1fragemou _17kya4ur _17kya4uk _1fragemoo _1fragemg4 _1fragemh4 _1fragemi7 _1fragemix _1fragemeb _1fragemfb _1fragemk0 _1fragemkq _1fragemus _1fragem32 _1fragemn2&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemn2 _1fragem5z _1fragem7s _1fragem41&quot;]/div[1]/div[1]/div[1]/div[@class=&quot;bSo96&quot;]/a[@class=&quot;s2kwpi1 s2kwpi0 _1fragemn2 _1fragemu9 _1fragemuf _1fragemu3 s2kwpi2 s2kwpi5 s2kwpi4 _1fragemu0 s2kwpi8&quot;]</value>
+      <webElementGuid>58f3987f-40c4-4801-aba8-4f6b3ec87084</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='Form477']/div/div/section/div/div/div/div/div/a</value>
+      <webElementGuid>672dc51c-a111-4460-8262-3c2bbf52e8f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Sign in')]</value>
+      <webElementGuid>56fb78e9-3d5c-42a9-8afc-e56dacd72443</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::a[1]</value>
+      <webElementGuid>f7998207-ce7e-4890-b372-64c462dfb7f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sauce Demo Checkout'])[1]/following::a[1]</value>
+      <webElementGuid>6ce4cb65-db53-4727-9048-a1356d461893</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::a[1]</value>
+      <webElementGuid>759ef5a0-3c6e-494f-8aab-2fa33d2b8f96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email me with news and offers'])[1]/preceding::a[1]</value>
+      <webElementGuid>ffe80f03-0ea8-40e1-ac20-01f59e3b8e2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign in']/parent::*</value>
+      <webElementGuid>919f6d4f-0e8e-4066-ab27-3b40f681a627</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://sauce-demo.myshopify.com/account/login?checkout_url=%2Fcheckouts%2Fcn%2FhWN2w2nehCBxVPOebXykzojU%2Fen-id%3Flocale%3Den-ID')]</value>
+      <webElementGuid>96b042f3-2166-465b-8148-a3b74a53c90c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div/div/div/a</value>
+      <webElementGuid>933fda45-1241-4cc7-af50-c2a9c8b65920</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://sauce-demo.myshopify.com/account/login?checkout_url=%2Fcheckouts%2Fcn%2FhWN2w2nehCBxVPOebXykzojU%2Fen-id%3Flocale%3Den-ID' and (text() = 'Sign in' or . = 'Sign in')]</value>
+      <webElementGuid>34c4ee5b-46fc-453f-9719-1c1a4167ddd2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

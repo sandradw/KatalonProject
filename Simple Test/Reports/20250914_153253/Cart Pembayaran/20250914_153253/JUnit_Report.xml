@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cart Pembayaran" time="88.491" tests="1" failures="0" errors="0">
+   <testsuite name="Cart Pembayaran" tests="1" failures="0" errors="0" time="88.491" skipped="0" timestamp="2025-09-14T08:33:00.265Z" hostname="BRI - DESKTOP-DJRE031" id="Test Suites/Cart Pembayaran">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253"/>
+         <property name="logFiles" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\console0.log, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838797005.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838801470.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838803081.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838815714.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838819488.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838829385.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838843849.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838846327.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838866994.png, C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838868075.png"/>
+         <property name="hostName" value="BRI - DESKTOP-DJRE031"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 140.0.7339.128"/>
+         <property name="userFullName" value="Sandra Dwi Widiyaningsih"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="1401e860e14b849cfb06570ba69cd44d"/>
+         <property name="projectName" value="Simple Test"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Cart - Pembayaran" time="87.314" classname="Test Cases/Cart - Pembayaran" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) label":"IN"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-09-2025T15:33:01 - [TEST_CASE][PASSED] - Test Cases/Cart - Pembayaran: Test Cases/Cart - Pembayaran
+
+14-09-2025T15:33:02 - [TEST_STEP][PASSED] - openBrowser(URLDev): Browser is opened with url: 'https://sauce-demo.myshopify.com/'
+
+14-09-2025T15:33:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-09-2025T15:33:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-09-2025T15:33:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sauce-demo.myshopify.com/'
+
+14-09-2025T15:33:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/Catalog")): Object: 'Object Repository/Cart/Catalog' is clicked on
+
+14-09-2025T15:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/Catalog' is clicked on
+
+14-09-2025T15:33:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+14-09-2025T15:33:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-09-2025T15:33:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838797005.png]]
+
+14-09-2025T15:33:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/jacket")): Object: 'Object Repository/Cart/jacket' is clicked on
+
+14-09-2025T15:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/jacket' is clicked on
+
+14-09-2025T15:33:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+14-09-2025T15:33:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-09-2025T15:33:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838801470.png]]
+
+14-09-2025T15:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/addtochart")): Object: 'Object Repository/Cart/addtochart' is clicked on
+
+14-09-2025T15:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/addtochart' is clicked on
+
+14-09-2025T15:33:23 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+14-09-2025T15:33:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-09-2025T15:33:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838803081.png]]
+
+14-09-2025T15:33:23 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+14-09-2025T15:33:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+14-09-2025T15:33:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/checkout")): Object: 'Object Repository/Cart/checkout' is clicked on
+
+14-09-2025T15:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/checkout' is clicked on
+
+14-09-2025T15:33:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+14-09-2025T15:33:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-09-2025T15:33:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838815714.png]]
+
+14-09-2025T15:33:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout - Sauce Demo/input_Total_checkout")): Object: 'Object Repository/Page_Checkout - Sauce Demo/input_Total_checkout' is clicked on
+
+14-09-2025T15:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout - Sauce Demo/input_Total_checkout' is clicked on
+
+14-09-2025T15:33:39 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+14-09-2025T15:33:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-09-2025T15:33:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838819488.png]]
+
+14-09-2025T15:33:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-09-2025T15:33:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-09-2025T15:33:46 - [TEST_STEP][PASSED] - sheetcheckout = getExcelDataWithDefaultSheet(FileProjectSimple + "\ProjectSimple.xlsx", "checkout", true): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - for ([row = 1, row <= sheetcheckout.getRowNumbers(), (row++)]): Taking screenshot successfully
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - email = sheetcheckout.getValue(1, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - country = sheetcheckout.getValue(2, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - firstname = sheetcheckout.getValue(3, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - lastname = sheetcheckout.getValue(4, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - company = sheetcheckout.getValue(5, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - address = sheetcheckout.getValue(6, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - apartment = sheetcheckout.getValue(7, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - city = sheetcheckout.getValue(8, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - province = sheetcheckout.getValue(9, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - postalcode = sheetcheckout.getValue(10, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - phone = sheetcheckout.getValue(11, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - cardnumber = sheetcheckout.getValue(12, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - expiration = sheetcheckout.getValue(13, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - securitycode = sheetcheckout.getValue(14, row): null
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - comment($email | $country | $firstname | $lastname | $company | $address | $city | $province | $postalcode | $phone | $cardnumber | $expiration | $securitycode): sandradwi@gmail.com | ID | sandra | dwi | - | jalan mampang parapatan v | Jakarta Selatan | JK | 12790 | 0856666666 | 1234567891234 | Dec-25 | 123
+
+14-09-2025T15:33:47 - [MESSAGE][INFO] - sandradwi@gmail.com | ID | sandra | dwi | - | jalan mampang parapatan v | Jakarta Selatan | JK | 12790 | 0856666666 | 1234567891234 | Dec-25 | 123
+
+14-09-2025T15:33:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/input_Email"), email): Text 'sandradwi@gmail.com' is set on object 'Object Repository/Page_Checkout - Sauce Demo/input_Email'
+
+14-09-2025T15:33:48 - [MESSAGE][PASSED] - Text 'sandradwi@gmail.com' is set on object 'Object Repository/Page_Checkout - Sauce Demo/input_Email'
+
+14-09-2025T15:33:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout - Sauce Demo/ceklis_Email_marketing")): Object: 'Object Repository/Page_Checkout - Sauce Demo/ceklis_Email_marketing' is clicked on
+
+14-09-2025T15:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout - Sauce Demo/ceklis_Email_marketing' is clicked on
+
+14-09-2025T15:33:49 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+14-09-2025T15:33:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-09-2025T15:33:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838829385.png]]
+
+14-09-2025T15:33:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Checkout - Sauce Demo/Country"), 10): Object 'Object Repository/Page_Checkout - Sauce Demo/Country' is visible
+
+14-09-2025T15:33:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout - Sauce Demo/Country' is visible
+
+14-09-2025T15:33:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Checkout - Sauce Demo/Country"), country, false): All options with value 'ID' are selected in object 'Object Repository/Page_Checkout - Sauce Demo/Country' 
+
+14-09-2025T15:33:52 - [MESSAGE][PASSED] - All options with value 'ID' are selected in object 'Object Repository/Page_Checkout - Sauce Demo/Country' 
+
+14-09-2025T15:33:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/Firstname"), firstname): Text 'sandra' is set on object 'Object Repository/Page_Checkout - Sauce Demo/Firstname'
+
+14-09-2025T15:33:52 - [MESSAGE][PASSED] - Text 'sandra' is set on object 'Object Repository/Page_Checkout - Sauce Demo/Firstname'
+
+14-09-2025T15:33:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/Lastname"), lastname): Text 'dwi' is set on object 'Object Repository/Page_Checkout - Sauce Demo/Lastname'
+
+14-09-2025T15:33:54 - [MESSAGE][PASSED] - Text 'dwi' is set on object 'Object Repository/Page_Checkout - Sauce Demo/Lastname'
+
+14-09-2025T15:33:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/company"), company): Text '-' is set on object 'Object Repository/Page_Checkout - Sauce Demo/company'
+
+14-09-2025T15:33:55 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/Page_Checkout - Sauce Demo/company'
+
+14-09-2025T15:33:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/address1"), address): Text 'jalan mampang parapatan v' is set on object 'Object Repository/Page_Checkout - Sauce Demo/address1'
+
+14-09-2025T15:33:57 - [MESSAGE][PASSED] - Text 'jalan mampang parapatan v' is set on object 'Object Repository/Page_Checkout - Sauce Demo/address1'
+
+14-09-2025T15:33:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/address2"), apartment): Text '-' is set on object 'Object Repository/Page_Checkout - Sauce Demo/address2'
+
+14-09-2025T15:33:58 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/Page_Checkout - Sauce Demo/address2'
+
+14-09-2025T15:33:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/city"), city): Text 'Jakarta Selatan' is set on object 'Object Repository/Page_Checkout - Sauce Demo/city'
+
+14-09-2025T15:34:00 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/Page_Checkout - Sauce Demo/city'
+
+14-09-2025T15:34:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Checkout - Sauce Demo/province"), 10): Object 'Object Repository/Page_Checkout - Sauce Demo/province' is visible
+
+14-09-2025T15:34:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout - Sauce Demo/province' is visible
+
+14-09-2025T15:34:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Checkout - Sauce Demo/province"), province, false): All options with value 'JK' are selected in object 'Object Repository/Page_Checkout - Sauce Demo/province' 
+
+14-09-2025T15:34:01 - [MESSAGE][PASSED] - All options with value 'JK' are selected in object 'Object Repository/Page_Checkout - Sauce Demo/province' 
+
+14-09-2025T15:34:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/postalcode"), postalcode): Text '12790' is set on object 'Object Repository/Page_Checkout - Sauce Demo/postalcode'
+
+14-09-2025T15:34:02 - [MESSAGE][PASSED] - Text '12790' is set on object 'Object Repository/Page_Checkout - Sauce Demo/postalcode'
+
+14-09-2025T15:34:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout - Sauce Demo/phone"), phone): Text '0856666666' is set on object 'Object Repository/Page_Checkout - Sauce Demo/phone'
+
+14-09-2025T15:34:03 - [MESSAGE][PASSED] - Text '0856666666' is set on object 'Object Repository/Page_Checkout - Sauce Demo/phone'
+
+14-09-2025T15:34:03 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+14-09-2025T15:34:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-09-2025T15:34:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838843849.png]]
+
+14-09-2025T15:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout - Sauce Demo/ceklis_Phone (optional)_save_shipping_information")): Object: 'Object Repository/Page_Checkout - Sauce Demo/ceklis_Phone (optional)_save_shipping_information' is clicked on
+
+14-09-2025T15:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout - Sauce Demo/ceklis_Phone (optional)_save_shipping_information' is clicked on
+
+14-09-2025T15:34:06 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+14-09-2025T15:34:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-09-2025T15:34:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838846327.png]]
+
+14-09-2025T15:34:06 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+14-09-2025T15:34:26 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+14-09-2025T15:34:26 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+14-09-2025T15:34:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-09-2025T15:34:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838866994.png]]
+
+14-09-2025T15:34:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout - Sauce Demo/button_paynow")): Object: 'Object Repository/Page_Checkout - Sauce Demo/button_paynow' is clicked on
+
+14-09-2025T15:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout - Sauce Demo/button_paynow' is clicked on
+
+14-09-2025T15:34:28 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+14-09-2025T15:34:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+14-09-2025T15:34:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BRI\\Katalon Studio\\Simple Test\\Reports\\20250914_153253\\Cart Pembayaran\\20250914_153253\\1757838868075.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-09-2025T15:33:00 - [TEST_SUITE][PASSED] - Cart Pembayaran: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register dan login berhasil,Chrome 140.0.7339.128,,,13-09-2025 19:21:24,13-09-2025 19:22:12,47.598s,PASSED
+,,,,,,,
+Test Cases/Register dan login Berhasil,Chrome 140.0.7339.128,,,13-09-2025 19:21:25,13-09-2025 19:22:10,44.962s,PASSED
+openBrowser(URLDev),Chrome 140.0.7339.128,,,13-09-2025 19:21:27,13-09-2025 19:21:38,11.380s,PASSED
+"click(findTestObject(""Object Repository/Page_Create Account  Sauce Demo/Sign_Up""))",Chrome 140.0.7339.128,,,13-09-2025 19:21:38,13-09-2025 19:21:42,4.230s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 19:21:42,13-09-2025 19:21:43,0.878s,PASSED
+"sheetRegister = getExcelDataWithDefaultSheet(FileProjectSimple + ""\ProjectSimple.xlsx"", ""Register"", true)",Chrome 140.0.7339.128,,,13-09-2025 19:21:43,13-09-2025 19:21:44,1.435s,PASSED
+"for ([row = 1, row <= sheetRegister.getRowNumbers(), (row++)])",Chrome 140.0.7339.128,,,13-09-2025 19:21:44,13-09-2025 19:21:53,8.400s,PASSED
+delay(10),Chrome 140.0.7339.128,,,13-09-2025 19:21:53,13-09-2025 19:22:03,10.052s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Sauce Demo/Login""))",Chrome 140.0.7339.128,,,13-09-2025 19:22:03,13-09-2025 19:22:05,2.279s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 19:22:05,13-09-2025 19:22:06,0.393s,PASSED
+"sheetLogin = getExcelDataWithDefaultSheet(FileProjectSimple + ""\ProjectSimple.xlsx"", ""Login"", true)",Chrome 140.0.7339.128,,,13-09-2025 19:22:06,13-09-2025 19:22:06,0.061s,PASSED
+"for ([row = 1, row <= sheetLogin.getRowNumbers(), (row++)])",Chrome 140.0.7339.128,,,13-09-2025 19:22:06,13-09-2025 19:22:10,4.671s,PASSED

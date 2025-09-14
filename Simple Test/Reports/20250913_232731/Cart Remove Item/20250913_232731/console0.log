@@ -1,0 +1,52 @@
+2025-09-13 23:27:37.709 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Cart Remove Item
+2025-09-13 23:27:37.923 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Sandra Dwi Widiyaningsih
+2025-09-13 23:27:37.925 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Simple Test
+2025-09-13 23:27:37.928 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = BRI - DESKTOP-DJRE031
+2025-09-13 23:27:37.929 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-13 23:27:37.930 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.3
+2025-09-13 23:27:37.933 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-13 23:27:39.024 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-13 23:27:39.024 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cart - Remove Item
+2025-09-13 23:27:39.932 DEBUG testcase.Cart - Remove Item              - 1: openBrowser(URLDev)
+2025-09-13 23:27:40.717 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-09-13 23:27:40.877 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 13, 2025 11:27:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-09-13 23:27:46.758 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 42e18596cd95dadec966744769ce6644
+2025-09-13 23:27:46.762 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.128
+2025-09-13 23:27:46.764 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-09-13 23:27:46.766 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-13 23:27:46.799 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-13 23:27:50.193 DEBUG testcase.Cart - Remove Item              - 2: click(findTestObject("Object Repository/Cart/Catalog"))
+2025-09-13 23:27:53.627 DEBUG testcase.Cart - Remove Item              - 3: takeFullPageScreenshot()
+2025-09-13 23:27:55.441 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 23:27:56.545 DEBUG testcase.Cart - Remove Item              - 4: click(findTestObject("Object Repository/Cart/jacket"))
+2025-09-13 23:27:57.724 DEBUG testcase.Cart - Remove Item              - 5: takeFullPageScreenshot()
+2025-09-13 23:27:58.312 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 23:27:58.660 DEBUG testcase.Cart - Remove Item              - 6: click(findTestObject("Object Repository/Cart/addtochart"))
+2025-09-13 23:27:59.107 DEBUG testcase.Cart - Remove Item              - 7: takeFullPageScreenshot()
+2025-09-13 23:27:59.547 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 23:27:59.859 DEBUG testcase.Cart - Remove Item              - 8: delay(10)
+2025-09-13 23:28:09.936 DEBUG testcase.Cart - Remove Item              - 9: click(findTestObject("Object Repository/Cart/checkout"))
+2025-09-13 23:28:11.444 DEBUG testcase.Cart - Remove Item              - 10: takeFullPageScreenshot()
+2025-09-13 23:28:11.806 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 23:28:11.968 DEBUG testcase.Cart - Remove Item              - 11: click(findTestObject("Object Repository/Cart/continueshopping"))
+2025-09-13 23:28:13.426 DEBUG testcase.Cart - Remove Item              - 12: takeFullPageScreenshot()
+2025-09-13 23:28:14.204 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 23:28:14.552 DEBUG testcase.Cart - Remove Item              - 13: click(findTestObject("Object Repository/Cart/sandals"))
+2025-09-13 23:28:15.994 DEBUG testcase.Cart - Remove Item              - 14: takeFullPageScreenshot()
+2025-09-13 23:28:16.427 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 23:28:16.604 DEBUG testcase.Cart - Remove Item              - 15: click(findTestObject("Object Repository/Cart/addtochart"))
+2025-09-13 23:28:17.139 DEBUG testcase.Cart - Remove Item              - 16: takeFullPageScreenshot()
+2025-09-13 23:28:17.507 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 23:28:17.718 DEBUG testcase.Cart - Remove Item              - 17: delay(10)
+2025-09-13 23:28:27.746 DEBUG testcase.Cart - Remove Item              - 18: click(findTestObject("Object Repository/Cart/checkout"))
+2025-09-13 23:28:29.338 DEBUG testcase.Cart - Remove Item              - 19: takeFullPageScreenshot()
+2025-09-13 23:28:29.681 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 23:28:29.846 DEBUG testcase.Cart - Remove Item              - 20: click(findTestObject("Object Repository/Cart/Remove"))
+2025-09-13 23:28:32.179 DEBUG testcase.Cart - Remove Item              - 21: takeFullPageScreenshot()
+2025-09-13 23:28:32.500 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-13 23:28:32.636 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cart - Remove Item
+2025-09-13 23:28:34.567 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-13 23:28:34.567 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Cart Remove Item
+2025-09-13 23:28:34.567 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart - Pembayaran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae04f0ce-b07c-4ca8-86d7-fe904e646ccc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>edbbce08-22de-4524-a1a9-da741b4a4293</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'IN'</defaultValue>
+      <description></description>
+      <id>edbbce08-22de-4524-a1a9-da741b4a4293</id>
+      <masked>false</masked>
+      <name>label</name>
+   </variable>
+</TestCaseEntity>

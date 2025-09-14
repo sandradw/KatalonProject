@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register Gagal,Chrome 140.0.7339.128,,,13-09-2025 19:26:10,13-09-2025 19:27:05,54.745s,PASSED
+,,,,,,,
+Test Cases/Register_Gagal,Chrome 140.0.7339.128,,,13-09-2025 19:26:11,13-09-2025 19:27:03,52.151s,PASSED
+openBrowser(URLDev),Chrome 140.0.7339.128,,,13-09-2025 19:26:12,13-09-2025 19:26:22,9.843s,PASSED
+"click(findTestObject(""Object Repository/Page_Create Account  Sauce Demo/Sign_Up""))",Chrome 140.0.7339.128,,,13-09-2025 19:26:22,13-09-2025 19:26:27,4.700s,PASSED
+takeFullPageScreenshot(),Chrome 140.0.7339.128,,,13-09-2025 19:26:27,13-09-2025 19:26:28,1.194s,PASSED
+"sheetRegisterGagal = getExcelDataWithDefaultSheet(FileProjectSimple + ""\ProjectSimple.xlsx"", ""RegisterGagal"", true)",Chrome 140.0.7339.128,,,13-09-2025 19:26:28,13-09-2025 19:26:30,1.708s,PASSED
+"for ([row = 1, row <= sheetRegisterGagal.getRowNumbers(), (row++)])",Chrome 140.0.7339.128,,,13-09-2025 19:26:30,13-09-2025 19:27:03,33.711s,PASSED
